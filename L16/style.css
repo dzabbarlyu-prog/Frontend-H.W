@@ -1,0 +1,15 @@
+body{
+    background-color: lightgrey;
+}
+.Pad1{
+    border: 20px solid blue;
+    padding: 40px;
+}
+.Pad2{
+    border: 10px solid red;
+    padding: 20px;
+}
+.Pad3{
+    border: 5px solid green;
+    padding: 10px;
+}
