@@ -7,6 +7,7 @@ body{
     height: 200px;
     width: 200px;
     background-color: azure;
+    border-radius: 5%;
 }
 .Card1{
     border: 15px solid black;
@@ -14,4 +15,5 @@ body{
     height: 200px;
     width: 200px;
     background-color: blueviolet;
+    border-radius: 5%;
 }
