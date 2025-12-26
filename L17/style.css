@@ -1,0 +1,17 @@
+body{
+    background-color: lightgrey;
+}
+.Card{
+    border: 15px solid black;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+}
+.Card1{
+    border: 15px solid black;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
