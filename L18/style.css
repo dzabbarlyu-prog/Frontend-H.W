@@ -1,0 +1,33 @@
+body{
+    background-color: lightgrey;
+}
+.Greetengs{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+div{
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: auto;
+}
+.Word{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+.img{
+    border: 1px solid black;
+}
+h5{
+    
+    margin: 5px;
+    text-indent: 5px;
+    color: grey;
+} 
+h4{
+    color: black;
+}
