@@ -14,6 +14,7 @@ div{
     border-radius: 10px;
     border: 2px solid black;
     margin: auto;
+    text-align: right;
 }
 .Word{
     font-family: Arial, sans-serif;
