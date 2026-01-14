@@ -1,0 +1,29 @@
+body{
+background-color: lightgrey;
+}
+.Greetings{
+text-align: center;
+}
+.Menu li{
+display: inline;
+border: 3px solid black;
+padding: 6px;
+margin-right: 6px;
+background-color: white;
+text-align: center;
+box-shadow: 5px 5px 5px grey;
+}
+ul{
+ text-align: center;   
+}   
+img{
+text-align: center;
+width: 100px;
+height: 100px;
+box-shadow: 5px 5px 5px grey;
+}
+.Img{
+
+display: block;
+}
+
