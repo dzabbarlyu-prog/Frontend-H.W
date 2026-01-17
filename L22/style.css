@@ -1,0 +1,47 @@
+body{
+    background-color: lightgrey;
+}
+.Greetings{
+    text-align: center;
+}
+form{
+    width: 300px;
+    text-align: center;
+    margin-left: 770px;
+    margin-top: 100px;   
+}
+input{
+ border-radius: 5px;
+
+ padding: 8px;
+ border: 1px solid grey;
+
+}
+button{
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+fieldset{
+    width: 310px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    border : 2px solid black;
+    padding: 20px ;
+    box-shadow: 5px 5px 5px grey;
+}
+button:hover{
+    background-color: rgb(104, 161, 207);
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+    border-color: blue;
+    outline: none;
+}
+label{
+    font-size: 18px;
+}
