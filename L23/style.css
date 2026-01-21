@@ -5,6 +5,9 @@ body{
     text-align: center;
     color: grey;
 }
+.Menu{
+    position: fixed;
+}
 .Menu li{
 display: inline;
 border-radius: 10px;
