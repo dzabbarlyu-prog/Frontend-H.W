@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+.Greetings{
+    text-align: center;
+    color: grey;
+}
+.World{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 5px grey;
+
+}
+h2{
+    text-align: center;
+    color: rgb(50, 50, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto;
+    border: 3px solid black;
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    border: 3px solid black;
+    transform: translate();
+    transform: rotate(20deg);
+    transform: scale();
+}
