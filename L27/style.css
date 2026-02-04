@@ -1,0 +1,42 @@
+body{
+    background-color: lightgray;
+}
+.Greetings{
+    text-align: center;
+    color: grey;
+}
+.BOX{
+width: 150px;
+height: 150px;
+background: yellow;
+transition: 1.5s;
+margin: auto;
+}
+
+.BOX:hover{
+height: 250px;
+background: green;
+}
+h2{
+    text-align: center;
+    color: rgb(50, 50, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+width: 80px;
+height: 80px;
+background: pink;
+position: relative;
+animation: 2s;
+margin: auto;
+animation-iteration-count: infinite;
+animation-name: move;
+}
+@keyframes move{
+from {
+    top: 0px;
+}
+to{
+    top: 100px;
+}
+}
