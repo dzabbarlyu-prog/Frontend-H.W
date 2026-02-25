@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: lightblue;
+}
+.Greetings{
+    text-align: center;
+    color: grey;
+    transition: color 0.5s;
+    user-select: none;
+}
+.Greetings:hover {
+    color: azure;
+}
+.Main{
+    box-shadow: 5px 5px 15px grey;
+    background-color: rgb(68, 67, 67);
+    border-radius: 20px;
+    height: 720px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+}
+.imgC img {
+    transition: box-shadow 1s;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;   
+    object-fit: cover;
+    margin-right: 650px;
+    position: relative;
+    top: 270px
+}
+.imgA img {
+    transition: box-shadow 1s;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 650px;
+    position: relative;
+    top: 270px
+}
+.imgB img {
+    transition: box-shadow 1s;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 650px;
+    position: relative;
+    top: 270px
+}
+.Text h1 img {
+    border-radius: 100%;
+    position: relative;
+    bottom: -3px;
+    right: 5px;
+    width: 35px;
+    height: 30px;
+}
+.Text h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 200px;
+    letter-spacing: 6px;
+    bottom : 380px;
+}
+.Text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: azure;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 350px;
+    position: relative;
+    left: 200px;
+    bottom : 380px;
+}
+.Text ul {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 50px;
+    width: 350px;
+    position: relative;
+    left: 230px;
+    bottom : 330px;
+}
+li::marker {
+  color: blue;
+}
+.Text h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: grey;
+    position: relative;
+    left: 50px;
+    bottom : 350px;
+}
+.imgC img:hover {
+    box-shadow: 0 0 20px 5px blue;
+}
+.imgA img:hover {
+    box-shadow: 0 0 20px 5px blue;
+}
+.imgB img:hover {
+    box-shadow: 0 0 20px 5px blue;
+}

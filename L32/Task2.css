@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: linear-gradient(135deg, #B39DDB, #AEB8D0);
+}
+.Greetings{
+    text-align: center;
+    color: #9CA3AF;
+    margin-top: 30px;
+    transition: color 0.5s;
+    user-select: none;
+    font-weight: 700;
+}
+.Greetings:hover {
+    color: #3B82F6;
+}
+.Main-Container{
+    display: flex;
+    user-select: none;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    width: 1300px;
+    height: 800px;
+    margin: 72px auto;
+    gap: 60px;
+}
+.Main-Container h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.1;
+    margin-top: 20px;
+    position: relative;
+    top: 320px;
+    right: 400px;
+    width: 400px;
+    white-space: nowrap;
+}
+.Main-Container h5{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.1;
+    margin-top: 20px;
+    position: relative;
+    top: 350px;
+    right: 650px;
+    width: 400px;
+    white-space: nowrap;
+}
+.Image-Container{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 900px;
+    align-items: center;
+    object-fit: cover;
+    position: relative;
+    right: 900px;
+}
+.Image-Container img{
+    width: 350px;
+    height: 300px;
+}
+.Text-Container{
+    height: 500px;
+    width: 800px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-wrap: break-word;
+    margin-top: 130px;
+    margin-left: 90px;
+    flex: 0 0 650px;  
+    align-items: flex-start;
+}
+.Text-Container h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+.Text-Container ul{
+    margin-right: 130px;
+    margin-bottom: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    color: #9CA3AF;
+}
+.Text-Container div button{
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+}
+.Text-Container h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1px;
+    overflow-wrap: break-word;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.1;
+}
+.blue{
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 30px;
+    transition: background-color 0.5s ease ;
+}
+.white{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 30px;
+    transition: background-color 0.5s ease ;
+}
+.blue:hover{
+    background-color: #2563EB;
+}
+.white:hover{
+    background-color: #d1d2d3;
+}
+.Menu-Container{
+    border: 2px solid black;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 80px;
+    margin-bottom: 700px;
+    padding: 10px 400px;
+}
+.Menu-Container ul li {
+    display: inline;
+    margin-right: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+}
+.Menu-Container h3 {
+    position: relative;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    top: 10px;
+
+}
+
+ 
