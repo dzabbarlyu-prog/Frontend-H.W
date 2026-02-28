@@ -1,23 +1,18 @@
-let name = "Ugur";
-console.log("my name is " + name);
 
-let age = 14;
-console.log("my age is " + age);
+let name = prompt("Enter your name :");
+console.log("Hello, " + name);
 
-let isActive = true;
-console.log(isActive);
+let age = prompt("Enter your age :");
+console.log("Your age: " + Age);
 
-let x;
-console.log(x);
+let password = prompt("Enter your password :");
+console.log("Your password: " + password);
 
-let y = null;
-console.log(y);
+let isStudent = prompt("Are you a student? :");
+console.log("Your status: " + isStudent);
 
-let userName = prompt("Enter your name:");
-console.log("Name: " + userName);
+let salary = prompt("What is your salary? :");
+console.log("Your salary: " + salary);
 
-let userAge = prompt("Enter your age:");
-console.log("Age: " + userAge);
-
-let password = prompt("Enter your password:");
-console.log("Password: " + password);
+let city = prompt("In what city do you live? :");
+console.log("Your city: " + city);

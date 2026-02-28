@@ -150,6 +150,7 @@ body{
     margin-left: 80px;
     margin-bottom: 700px;
     padding: 10px 400px;
+      margin-right: 200px;
 }
 .Menu-Container ul li {
     display: inline;
@@ -164,6 +165,9 @@ body{
     font-size: 25px;
     top: 10px;
 
+}
+.Menu-Container ul{
+    margin-left: 200px;
 }
 
  
